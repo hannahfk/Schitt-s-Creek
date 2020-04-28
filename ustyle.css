@@ -1,0 +1,35 @@
+/*selector {
+	property: value;
+}*/
+
+body{
+	background-color: rgba( 88,180,150,.5);
+	text-align: center;
+	font-family: 'Poiret One', cursive; 
+
+}
+
+img {
+	transition: all 3s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	color: rgba( 19, 66,114,1);
+	cursor:pointer;
+
+}
+h3{
+ color: rgba( 11,117, 82,1) 
+}
+
+h2 {
+color: rgba( 19, 66,114,1)
+	}
+
+p {
+	color: cyan;
+}
+

@@ -2,13 +2,20 @@
 <html>
 <head>
 	<title>Schitt's Creek Questionnaire</title>
-	<link rel="stylesheet" type="text/css" href="ustyle.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
 </head>
 <body>
-	<h1>Let's Talk About Schitt's Creek!</h1>
-	<h3>Quarantine has been long. If you're like me, perhaps some lighthearted TV shows have gotten you through some of the year of April so far. For me, my go-to show has been Schitt's Creek. You, too? Great! Haven't seen it? Go on and let yourself enjoy the rest of this challenging time! You can enjoy on Netflix or click on the picture below to head on over to PopTV! Can't wait to hear what you think! </h3>
+	<div class="container">
+		<h1>Let's Talk About Schitt's Creek!</h1>
 
+
+	<p>Quarantine has been long. If you're like me, perhaps some lighthearted TV shows have gotten you through some of the year of April so far. For me, my go-to show has been Schitt's Creek. You, too? Great! Haven't seen it? Go on and let yourself enjoy the rest of this challenging time! You can enjoy on Netflix or click on the picture below to head on over to PopTV! Can't wait to hear what you think! </p>
+
+</div>
 	<a href="https://poptv.com/schittscreek" target="blank">
 	<img class="family" src="https://ca-times.brightspotcdn.com/dims4/default/021e532/2147483647/strip/true/crop/6000x4000+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa5%2F7f%2F44841f4d4d35b376afa7738fa4fa%2F1150623343-sc6-ep614-d34-sw-0722-retouched.jpg" height="340" width="620">
 	</a>
@@ -32,7 +39,7 @@
 	</select>
 <br>
 <br>
-	
+
 <h2>Which is Your Favorite Scene?</h2>
 
 <input type="radio" name="One">A Little Bit Alexis</input><br>
@@ -62,13 +69,27 @@ Prediction: <input type="date" name="next season"><br>
 <img src="https://66.media.tumblr.com/2000498b049c6c91567622190afcdb45/tumblr_pwyt52o2241qch0kpo1_540.gifv" height="300" width="500">
 
 <h3>Great choices! Enter your email below if you would like to receice more Schitt news!</h3>
-Email: <input type="email" name="email" Required><br>
+
+<form>
+
+
+  <div class="form-group col-lg-5">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!-- <input type="email" name="email" Required><br>
 <br>
-Submit: <input type="Submit" name="Submit"><br>
+<button class="btn btn-primary" type="submit" name="button">Submit!</button>
+<br> -->
+
+<img class= "final" src="https://vignette.wikia.nocookie.net/schitts-creek/images/1/1e/POP_SchittsCreek_SEO_1200x627.jpg/revision/latest?cb=20161229173557" height="300" width="500">
 <br>
 
-<img src="https://vignette.wikia.nocookie.net/schitts-creek/images/1/1e/POP_SchittsCreek_SEO_1200x627.jpg/revision/latest?cb=20161229173557" height="300" width="500">
-<br>
-
+<script src="/index.js" charset="utf-8"></script>
 </body>
 </html>
